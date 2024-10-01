@@ -1,26 +1,20 @@
-#include <stdio.h>
+              // Problem 01..
+                // Even or Odd Sum....
 
-int main() {
-    int num1, num2, sum;
+    #include<stdio.h>
+       int main(){
 
+   int a,b,sum;
 
-    printf("Enter the first number: ");
-    scanf("%d", &num1);
+     printf("Enter the two numbers:\n");
+      scanf("%d%d",&a,&b);
+         sum=a+b;
+            if(sum % 2 == 0){
+                printf("The sum is Even\n");
+            }else {
+                 printf("The sum is Odd\n");
+            }
 
-    printf("Enter the second number: ");
-    scanf("%d", &num2);
+   return 0;
 
-
-    sum = num1 + num2;
-
-
-    if (sum % 2 == 0) {
-        printf("The sum is %d and it is even.\n", sum);
-    } else {
-        printf("The sum is %d and it is odd.\n", sum);
-    }
-
-    return 0;
-}
-
-
+           }
