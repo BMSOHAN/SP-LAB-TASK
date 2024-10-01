@@ -5,10 +5,10 @@
 int main()
 {         int a,b;
           char ch;
-          printf("Enter two number: ");//*****
-          scanf("%d %d",&a,&b);//**
-          printf("Choose(+,-,*,/ ): ");//*******
-          scanf(" %c",&ch);//**
+          printf("Enter two number: ");
+          scanf("%d %d",&a,&b);
+          printf("Choose(+,-,*,/ ): ");
+          scanf(" %c",&ch);
           switch(ch){
           case'+':
           printf("Additon= %d\n",a+b);
